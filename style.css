@@ -16,7 +16,8 @@ h1{
     margin-top: 7%;
     
 }
-.Country-Details{
+
+.All-Details{
     border: 1.6px rgb(255, 0, 128) solid;
     border-radius:7px;
     width: 76%;
@@ -25,10 +26,14 @@ h1{
     margin-bottom: 5%;
     text-align: center;
     background-image: linear-gradient(147deg, #ada3e4 0%,rgb(227, 228, 174));
+ 
 }
-
+.All-Details:hover , .Flag-img:hover{
+   
+}
 .Flag-img{
     width: 100%;
     height: 170px;
     border-radius:7px;
 }
+
