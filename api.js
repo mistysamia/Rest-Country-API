@@ -27,7 +27,7 @@ const CountrySet = (CountryArray) => {
                 onmouseover="DetailsShow('${element.name}','${element.alpha2Code}')" onmouseout="DetailsOff('${element.name}','${element.alpha2Code}')">
                     <h2 class="text-md-center">Capital:  ${element.capital}</h2>
                     &nbsp;<h4>Region: ${data[0].region}</h4>
-                    <h4 class="text-md-center">Area:  ${data[0].area}</h4>
+                    <h4 class="text-md-center">Area:  ${data[0].area}<span> &#13218;</span></h4>
                     <h4 class="text-md-center">Population:${data[0].population}</h4>
                 </div>
 
