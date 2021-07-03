@@ -10,6 +10,7 @@ h1{
 }
 h2{
     margin-top: 10%;
+    color: rgb(161, 9, 55);
 }
 
 #Country-Div{
@@ -33,6 +34,17 @@ h2{
     background-image: linear-gradient(147deg, #ada3e4 0%,rgb(227, 228, 174));
  
 }
+
+
+
+@media screen and (max-width: 1000px) {
+    #Country-Div {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
 .Country-Hover-Details{
     display: none;
 }
