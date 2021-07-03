@@ -21,7 +21,7 @@ const CountrySet = (CountryArray) => {
                 <div id="${element.alpha2Code}" 
                 onmouseover="DetailsShow('${element.name}','${element.alpha2Code}')" onmouseout="DetailsOff('${element.name}','${element.alpha2Code}')">
                     <img src="${data[0].flag}" class="Flag-img" >
-                    <h2>${element.name}</h2>
+                    <h3>${element.name}</h3>
                 </div>
                 <div id="${element.alpha2Code}-Details"  class="Country-Hover-Details"
                 onmouseover="DetailsShow('${element.name}','${element.alpha2Code}')" onmouseout="DetailsOff('${element.name}','${element.alpha2Code}')">
